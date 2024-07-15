@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('image/gedangste.jpg') no-repeat center center fixed; /* Gambar latar belakang */
+    background-size: cover; /* Membuat gambar menutupi seluruh area */
+    color: #cbd5e1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4F709C;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    flex: 1; /* Membuat konten utama mengisi ruang yang tersedia */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(10, 30, 39, 0.8); /* Transparansi untuk memudahkan teks terbaca */
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#ticket-prices {
+    margin-bottom: 20px;
+}
+
+.ticket-item {
+    background-color: #4f709c;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.ticket-item.blue {
+    background-color: #aad1e6;
+}
+
+.ticket-header {
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.ticket-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.ticket-body {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #4F709C;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Menghapus posisi absolut */
+    bottom: 0; /* Menghapus properti bottom */
+    width: 100%; /* Pastikan footer mengisi lebar penuh halaman */
+}
